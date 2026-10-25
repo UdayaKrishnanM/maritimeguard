@@ -1,0 +1,11 @@
+{
+  "enabledPolicies": [
+    "block-sudo",
+    "block-rm-rf",
+    "block-curl-pipe-sh",
+    "sanitize-api-keys",
+    "sanitize-jwt",
+    "block-env-files",
+    "warn-repeated-tool-calls"
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook SessionStart --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook SessionEnd --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook UserPromptSubmit --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PreToolUse --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PermissionRequest --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PermissionDenied": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PermissionDenied --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PostToolUse --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PostToolUseFailure --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook Notification --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook SubagentStart --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook SubagentStop --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "TaskCreated": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook TaskCreated --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook TaskCompleted --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook Stop --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "StopFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook StopFailure --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "TeammateIdle": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook TeammateIdle --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "InstructionsLoaded": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook InstructionsLoaded --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "ConfigChange": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook ConfigChange --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "CwdChanged": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook CwdChanged --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "FileChanged": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook FileChanged --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "WorktreeRemove": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook WorktreeRemove --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PreCompact --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PostCompact --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "Elicitation": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook Elicitation --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "ElicitationResult": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook ElicitationResult --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "UserPromptExpansion": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook UserPromptExpansion --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "PostToolBatch": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook PostToolBatch --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ],
+    "Setup": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y failproofai --hook Setup --agent-scope project",
+            "timeout": 60,
+            "__failproofai_hook__": true
+          }
+        ]
+      }
+    ]
+  }
+}
