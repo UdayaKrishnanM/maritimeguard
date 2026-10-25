@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.maritimeguard/
+authorized_route.json
+good.json
+bad.json
+demo/task1.json
+.claude/settings.json.failproofai-backup
