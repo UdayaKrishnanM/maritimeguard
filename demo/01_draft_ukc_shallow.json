@@ -1,0 +1,87 @@
+{
+ "task_id": "base",
+ "notes": "",
+ "origin": "A",
+ "destination": "D",
+ "waypoints": {
+  "A": {
+   "lat": 10.0,
+   "lon": 50.0
+  },
+  "B": {
+   "lat": 14.0,
+   "lon": 55.0
+  },
+  "C": {
+   "lat": 14.0,
+   "lon": 65.0
+  },
+  "D": {
+   "lat": 10.0,
+   "lon": 70.0
+  }
+ },
+ "vessel": {
+  "draft_m": 12.0,
+  "air_draft_m": 40.0,
+  "service_speed_kn": 14.0,
+  "fuel_consumption_t_per_day": 30.0,
+  "max_wave_m": 5.0,
+  "max_wind_kn": 40
+ },
+ "fuel_price_per_t": 600.0,
+ "delay_cost_per_hour": 1000.0,
+ "delay_if_not_rerouted_h": 48.0,
+ "thresholds": {
+  "authorized_extra_cost": 50000.0
+ },
+ "zones": {
+  "STORM1": {
+   "type": "storm",
+   "active": true
+  }
+ },
+ "original_route": {
+  "segments": [
+   {
+    "from": "A",
+    "to": "D",
+    "distance_nm": 1182.38
+   }
+  ]
+ },
+ "proposed_route": {
+  "segments": [
+   {
+    "from": "A",
+    "to": "B",
+    "distance_nm": 379.29,
+    "min_depth_m": 20.0,
+    "weather": {
+     "wave_m": 2.0,
+     "wind_kn": 20
+    }
+   },
+   {
+    "from": "B",
+    "to": "C",
+    "distance_nm": 582.53,
+    "min_depth_m": 20.0,
+    "weather": {
+     "wave_m": 2.0,
+     "wind_kn": 20
+    }
+   },
+   {
+    "from": "C",
+    "to": "D",
+    "distance_nm": 379.29,
+    "min_depth_m": 12.8,
+    "weather": {
+     "wave_m": 2.0,
+     "wind_kn": 20
+    }
+   }
+  ]
+ }
+}
